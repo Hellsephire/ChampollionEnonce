@@ -2,7 +2,7 @@ package champollion;
 
 public class Enseignant extends Personne {
 
-    // TODO : rajouter les autres méthodes présentes dans le diagramme UML
+// TODO : rajouter les autres méthodes présentes dans le diagramme UML
 
     public Enseignant(String nom, String email) {
         super(nom, email);
@@ -17,9 +17,10 @@ public class Enseignant extends Personne {
      *
      */
     public int heuresPrevues() {
-        // TODO: Implémenter cette méthode
-        throw new UnsupportedOperationException("Pas encore implémenté");
-    }
+// TODO: Implémenter cette méthode // throw new UnsupportedOperationException("Pas encore implémenté");
+        heureEquivalentTD() = new heuresPrevues;
+        int hP = (1,5*CM + TD + 0,75*TP);
+        return hP;
 
     /**
      * Calcule le nombre total d'heures prévues pour cet enseignant dans l'UE spécifiée en "heures équivalent TD" Pour
@@ -31,8 +32,10 @@ public class Enseignant extends Personne {
      *
      */
     public int heuresPrevuesPourUE(UE ue) {
-        // TODO: Implémenter cette méthode
-        throw new UnsupportedOperationException("Pas encore implémenté");
+// TODO: Implémenter cette méthode // throw new UnsupportedOperationException("Pas encore implémenté");
+        heureEquivalentTDUE() = new heuresPrevuesPourUE;
+        int hPUE = (1,5*UE.CM + UE.TD + 0,75*UE.TP);
+        return hPUE;
     }
 
     /**
@@ -44,8 +47,14 @@ public class Enseignant extends Personne {
      * @param volumeTP le volume d'heures de TP
      */
     public void ajouteEnseignement(UE ue, int volumeCM, int volumeTD, int volumeTP) {
-        // TODO: Implémenter cette méthode
+// TODO: Implémenter cette méthode
         throw new UnsupportedOperationException("Pas encore implémenté");
     }
-
-}
+    public void ajouteIntervention(TypeIntervention inter) {
+// TODO: Implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
+    public int resteAPlanifier(UE ue,TypeIntervention inter) {
+// TODO: Implémenter cette méthode
+        throw new UnsupportedOperationException("Pas encore implémenté");
+    }
