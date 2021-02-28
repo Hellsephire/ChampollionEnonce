@@ -18,9 +18,9 @@ public class Enseignant extends Personne {
      */
     public int heuresPrevues() {
 // TODO: Implémenter cette méthode // throw new UnsupportedOperationException("Pas encore implémenté");
-        heureEquivalentTD() = new heuresPrevues;
-        int hP = (1,5*CM + TD + 0,75*TP);
-        return hP;
+        int heureEquivalentTD() = new heuresPrevues;
+        heureEquivalentTD = (1,5*CM + TD + 0,75*TP);
+        return heureEquivalentTD;
 
     /**
      * Calcule le nombre total d'heures prévues pour cet enseignant dans l'UE spécifiée en "heures équivalent TD" Pour
@@ -33,9 +33,9 @@ public class Enseignant extends Personne {
      */
     public int heuresPrevuesPourUE(UE ue) {
 // TODO: Implémenter cette méthode // throw new UnsupportedOperationException("Pas encore implémenté");
-        heureEquivalentTDUE() = new heuresPrevuesPourUE;
-        int hPUE = (1,5*UE.CM + UE.TD + 0,75*UE.TP);
-        return hPUE;
+        int heureEquivalentTDUE() = new heuresPrevuesPourUE;
+        heureEquivalentTDUE = (1,5*UE.CM + UE.TD + 0,75*UE.TP);
+        return heureEquivalentTDUE;
     }
 
     /**
