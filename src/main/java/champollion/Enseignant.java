@@ -47,12 +47,14 @@ public class Enseignant extends Personne {
      * @param volumeTP le volume d'heures de TP
      */
     public void ajouteEnseignement(UE ue, int volumeCM, int volumeTD, int volumeTP) {
-// TODO: Implémenter cette méthode
-        throw new UnsupportedOperationException("Pas encore implémenté");
+// TODO: Implémenter cette méthode // throw new UnsupportedOperationException("Pas encore implémenté");
+        String enseignement() = new enseignement.UE();
+        
     }
     public void ajouteIntervention(TypeIntervention inter) {
-// TODO: Implémenter cette méthode
-        throw new UnsupportedOperationException("Pas encore implémenté");
+// TODO: Implémenter cette méthode //throw new UnsupportedOperationException("Pas encore implémenté");
+        enum inter = new typeIntervention;
+        return inter;
     }
     public int resteAPlanifier(UE ue,TypeIntervention inter) {
 // TODO: Implémenter cette méthode
